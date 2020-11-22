@@ -43,7 +43,7 @@ class PostsIsLoaded extends PostsState{
 
   PostsIsLoaded(this._posts);
 
-  PostModel get getUser => _posts;
+  PostModel get getPosts => _posts;
 
   @override
   // TODO: implement props
